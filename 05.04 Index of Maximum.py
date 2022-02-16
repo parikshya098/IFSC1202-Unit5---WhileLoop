@@ -1,24 +1,24 @@
 # max = 0
-# i = 0
-# max_i = 0
 # a = int(input('Enter a Number (zero to quit): '))
 # while a != 0:
 #     if a > max:
 #         max = a
-#         max_i = i
 #     a = int(input('Enter a Number (zero to quit): '))
-#     i += 1
 # print('Maximum:',max)
-# print(max_i)
 
-max = 0
-i = 0
-max_i = 0
-a = int(input())
-while a != 0:
-    if a > max:
-        max = a
-        max_i = i
-    a = int(input())
-    i += 1
-print(max_i)
+x = int(input("Enter a number(zero to quit): "))
+maximum = x
+maximumindex = 1
+index = 1
+if x != 0:
+    while x != 0:
+        if x > maximum:
+            maximum = x
+            maximumindex = index
+        x = int(input("Enter a number(zero to quit: "))  
+        index += 1
+else: 
+    maximumindex = 0
+
+print("Maximum: {}".format(maximum))
+print("Index of Maximum: {}".format(maximumindex)) 
