@@ -20,5 +20,5 @@ while n != "guess":
         print ("Good job, {}! You guessed my number in {} guesses!".format(username,count))
         break
   else:
-    print("Nope. The number I was thinking of was ",n)
+    print("Nope. The number I was thinking of was",n)
     break
