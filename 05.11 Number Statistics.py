@@ -1,25 +1,24 @@
-sum = 0
+total  = 0
 seq = 0
 num = 0
-max = 0
-min = 0
-c = 1
+largest = 0
 a = float(int(input('Enter a number (zero to quit): ')))
+smallest = a 
 
 while a != 0 :
-    if a > max:
-        max = a
-    elif a < min:
-        min = a
-    sum += a
+    if a > largest:
+        largest = a
+    if a < smallest:
+        smallest = a
+    total += a
     seq += a
     num += 1
     a = float(int(input('Enter a Number (zero to quit): ')))
 
-z = (seq/num)
+avg = (seq/num)
 
 print('Count:',num)
-print('Sum:',sum)
-print ('Average:',z)
-print('Minimum:',min)
-print('Maximum:',max)
+print('Sum:',total)
+print ('Average:',avg)
+print('Minimum:',smallest)
+print('Maximum:',largest)
