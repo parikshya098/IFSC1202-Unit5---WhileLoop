@@ -10,4 +10,4 @@ while b != 0:
         if chunk > mc:
             mc = chunk
         chunk = 1
-print('7 repeated ' + str(mc) + ' times.')
+print( '7 repeated ' + str(mc) + ' times.')
